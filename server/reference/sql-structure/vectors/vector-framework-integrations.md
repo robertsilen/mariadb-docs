@@ -9,7 +9,7 @@ description: >-
 
 {% include "../../../.gitbook/includes/vectors-are-available-from-....md" %}
 
-MariaDB Vector has integrations in several frameworks. For a general overview of MariaDB Vector — feature summary, benchmarks, tutorials, and demos — see the [MariaDB Vector project page](https://mariadb.org/projects/mariadb-vector/). MariaDB is not yet part of the [VectorDBBench](https://github.com/zilliztech/VectorDBBench) comparison suite.
+MariaDB Vector has integrations in several frameworks. For a general overview of MariaDB Vector — feature summary, benchmarks, tutorials, and demos — see the [MariaDB Vector project page](https://mariadb.org/projects/mariadb-vector/).
 
 Integrations differ in how much they cover, and in where the code lives. The support column uses these values:
 
@@ -30,7 +30,7 @@ Each table lists supported frameworks first, then those without an integration.
 | [LangChain](https://docs.langchain.com/oss/python/integrations/vectorstores) ([PyPI](https://pypi.org/project/langchain-mariadb/)) | Python | Yes, via package | Store, index, similarity search. The `langchain-mariadb` package is maintained by MariaDB at [mariadb-corporation/langchain-mariadb](https://github.com/mariadb-corporation/langchain-mariadb) |
 | [LangGraph](https://langchain-ai.github.io/langgraph/) | Python | Yes | Agentic workflows reuse LangChain vector stores |
 | [LangChain4j](https://docs.langchain4j.dev/integrations/embedding-stores/mariadb/) | Java | Yes | `MariaDbEmbeddingStore` in the `dev.langchain4j:langchain4j-mariadb` module |
-| [LangChain.js](https://www.npmjs.com/package/@langchain/community) | Node.js | Yes, via package (sunsetting) | `MariaDBStore`, exported from `@langchain/community` as `@langchain/community/vectorstores/mariadb`. LangChain is sunsetting `@langchain/community` entirely and accepting no further integrations into it ([langchainjs-community#61](https://github.com/langchain-ai/langchainjs-community/issues/61))
+| [LangChain.js](https://www.npmjs.com/package/@langchain/community) | Node.js | Yes, via package | `MariaDBStore`, exported from `@langchain/community` as `@langchain/community/vectorstores/mariadb` |
 | [LlamaIndex](https://developers.llamaindex.ai/python/framework-api-reference/storage/vector_store/mariadb/) | Python | Yes | Vector store in the LlamaIndex repository; synchronous API only |
 | [Spring AI](https://docs.spring.io/spring-ai/reference/api/vectordbs/mariadb.html) | Java | Yes | `MariaDBVectorStore` with Spring Boot auto-configuration via `spring-ai-starter-vector-store-mariadb` |
 | [MariaDB MCP server](https://github.com/mariadb/mcp) | Python | Yes, MariaDB project | SQL access and vector search for AI agents |
